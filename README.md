@@ -18,3 +18,9 @@ these _related_ results succeeded in reducing me to dyslexia. :slightly_smiling_
 
 
 so just write some codes to nail it.
+
+---
+
+features:
+- stupid polling
+- run to start, click to quit
