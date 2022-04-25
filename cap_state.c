@@ -8,6 +8,7 @@ int main() {
     if (d) {
         XkbGetIndicatorState(d, XkbUseCoreKbd, &n);
         printf("%u\n", n); /* (n & 1) ? caps_on : caps_off */
+        XCloseDisplay(d);
     } /* else ERR */
     return 0;
 }
